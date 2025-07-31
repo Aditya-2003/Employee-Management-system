@@ -10,7 +10,7 @@ const Login = () => {
   };
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      <div className="rounded-xl border-2 border-emerald-600 p-20">
+      <div className="rounded-xl border-2 border-emerald-600 p-12">
         <form
           onSubmit={(e) => {
             submitHandler(e);
@@ -46,7 +46,7 @@ const Login = () => {
             name="password"
             id="password"
           />
-          <button className="text-white outline-none bg-emerald-600 border-none py-3 px-5 rounded-full mt-5 ">
+          <button className="w-full text-white outline-none bg-emerald-600 border-none py-3 px-5 rounded-full mt-5 ">
             Log in
           </button>
         </form>
